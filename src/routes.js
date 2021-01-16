@@ -6,6 +6,7 @@ import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import SchoolRegister from './pages/Register/SchoolRegister';
 import CompanyRegister from './pages/Register/CompanyRegister';
+import StudentProfile from './pages/Student/StudentProfile';
 
 export default function Routes(){
     return(
@@ -16,6 +17,7 @@ export default function Routes(){
                 <Route path="/register" component={ Register } />
                 <Route path="/schoolregister" component={ SchoolRegister } />
                 <Route path="/companyregister" component={ CompanyRegister } />
+                <Route path="/studentprofile" component={ StudentProfile } />
             </Switch>
         </BrowserRouter>
     );
