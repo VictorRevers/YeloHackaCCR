@@ -17,8 +17,8 @@ export default function Landing(){
             <div className="btnlinks">
                 <Link to="/login"><button>Login</button></Link>
                 <Link to="/register"><button>Cadastro Aluno</button></Link>
-                <Link><button>Cadastro Empresa</button></Link>
-                <Link><button>Cadastro Escola</button></Link>
+                <Link to="companyregister"><button>Cadastro Empresa</button></Link>
+                <Link to="/schoolregister"><button>Cadastro Escola</button></Link>
             </div> 
         </div>          
         </body> 
