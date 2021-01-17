@@ -2,17 +2,17 @@
 
 Aplicativo desenvolvido para solução do desafio do Hackathon CCR.
 
-Desenvolvedores:
+#Desenvolvedores:
 -Victor Revers Kasnowski
 -João Pedro Noberto Da Silva
 -Luiz Eduardo Alves Constancio
 
-Tecnologias utilizadas:
+#Tecnologias utilizadas:
 
 -ReactJS
 -Flask
 
-Paginas:
+#Paginas:
 
 
 
