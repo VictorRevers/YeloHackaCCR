@@ -1,18 +1,19 @@
 import React from 'react';
-import './StudentProfile.css';
 import { Link } from 'react-router-dom';
 import { FcDataConfiguration } from 'react-icons/fc';
 import { FiMonitor } from 'react-icons/fi';
 import { CgWorkAlt } from 'react-icons/cg';
 import { BiChevronDown, BiLogOut } from 'react-icons/bi';
 
-export default function Student(){
+import './StudentProfile.css';
+
+export default function StdProfileConfig(){
     return(
         <div className="student-container">
             <header>
             <div class="navbar">
                 <div class="dropdown">
-                    <button class="dropbtn"><p>Fulano de Tal<BiChevronDown size={20} color="black" /> </p></button>
+                    <Link to="/studentprofile"><button class="dropbtn"><p>Fulano de Tal<BiChevronDown size={20} color="black" /> </p></button></Link>
                 <div class="dropdown-content">
                     <Link to="/stdprofconfig"><p><FcDataConfiguration size={20} color="black"/> Configurar Perfil</p></Link>            
             </div>
@@ -23,25 +24,23 @@ export default function Student(){
             </div>
             </header>
            <body>
-              <div className="student-infos">
-                <div className="informations" >
-                    <h1>Perfil</h1>
-                    <h3>Nome:</h3>
-                    <p>Fulano de Tal</p>
-                    <h3>Idade</h3>
-                    <p>16 Anos</p>
-                    <h3>Cidade/Estado</h3>
-                    <p>Rio de Janeiro - RJ</p>
-                    <h3>Sobre Mim:</h3>
-                    <p>Sou estudante do segundo ano e gosto muito de física, química e matemática</p>
-                    <h3>Área de interesse:</h3>
-                    <p>Economia</p>
-                    <h3>Boletim:</h3>
-                    <p>Boletim.pdf</p>
-                    <h3>Currículo:</h3>
-                    <p>Meucv.pdf</p>
+                <div className="pf-container">
+                    <div className="info-area">
+                        <form>
+                            <h1>Informações do perfil:</h1>
+                            <input type="text" placeholder="Area de interesse"  /><hr/>
+                            <textarea placeholder="Fale um pouco sobre você :)" /><hr/>
+                            <label>Boletim:</label><br/>
+                            <input type="file" />
+                            <hr/>
+                            <label>CV:</label><br/>
+                            <input type="file" />
+                            <hr/>
+                            <button>Salvar</button>
+                        </form>
+                       
+                    </div>
                 </div>
-              </div>
            </body>
         </div>
     );

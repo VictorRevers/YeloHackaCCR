@@ -1,4 +1,4 @@
-body{
+.student-container body{
   background-color: whitesmoke;
 }
 .navbar {
@@ -22,6 +22,7 @@ body{
   .dropdown {
     float: left;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .dropdown .dropbtn {
@@ -33,6 +34,7 @@ body{
     background-color: inherit;
     font-family: inherit; 
     margin: 0; 
+    cursor: pointer;
   }
   
   .navbar p:hover{
@@ -50,6 +52,7 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
   }
   
   .dropdown-content p {
@@ -64,3 +67,48 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .pf-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-area{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+ .info-area input{
+  border-radius: 4px;
+  border: 1px solid #9c9c9c;
+  padding: 20px;padding: 10px;
+ }
+
+ .info-area textarea{
+  border-radius: 4px;
+  border: 1px solid #9c9c9c;
+  padding: 20px;
+ }
+
+ .info-area button{
+  margin-top: 8px;
+  width: 84.8%;
+  border-radius: 4px;
+  border: 1px solid #9c9c9c;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.2s;
+ }
+
+ .info-area button:hover{
+  background-color:#484ef6 ;
+ }
+
+ .student-infos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }

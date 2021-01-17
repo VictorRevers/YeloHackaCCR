@@ -33,8 +33,6 @@ export default function Register(){
                 <option value="Colégio Municipal YYY" />
                 <option value="Colégio Estadual ZZZ" />
               </datalist>
-              <label>Boletim:</label>
-              <input type="file" />
               <button>Cadastrar!</button>
                
                

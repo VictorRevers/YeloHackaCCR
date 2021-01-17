@@ -1,0 +1,75 @@
+.student-container body{
+    background-color: whitesmoke;
+  }
+  .navbar {
+      overflow: hidden;
+      background-color: #484ef6 ;
+      font-family: Arial;
+      display: flex;
+      align-items: center;
+    }
+    
+    .navbar p {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; 
+      margin: 0; 
+      cursor: pointer;
+    }
+    
+    .navbar p:hover{
+      color: gainsboro;
+    }
+  
+    .dropbtn {
+      background-color: grey;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      
+    }
+    
+    .dropdown-content p {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .obs{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
