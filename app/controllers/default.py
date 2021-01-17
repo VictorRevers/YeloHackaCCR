@@ -5,4 +5,8 @@ from app.models.forms import LoginForm
 @app.route("/")
 @app.route("/index")
 def index():
-    return "Hello Wolrd!"
+    return render_template('index.js')
+
+@app.route("/jobs")
+def jobs():
+    return render_template("jobs.js")
