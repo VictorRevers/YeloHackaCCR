@@ -17,7 +17,7 @@ export default function Login(){
                 <form>
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Senha" />
-                    <Link to="/studentprofile"><button>Entrar!</button></Link>
+                    <Link to="/company"><button>Entrar!</button></Link>
                 </form>
             </div>
         </div>

@@ -2,7 +2,7 @@ body{
     background-color: #484ef6;
 }
 
-.landing-container{
+.scpf-container{
     width: 100%;
     max-width: 1120px;
     height: 120vh;
@@ -13,11 +13,11 @@ body{
     overflow: hidden;
 }
 
-.landing-container h1{
+.scpf-container h1{
     font-size: 70px;
 }
 
-.landing-container .content{
+.scpf-container .content{
     width: 100%;
     padding: 96px;
     background: #f0f0f5;
@@ -28,18 +28,18 @@ body{
     align-items: center;
   }
 
-.landing-container .content section{
+.scpf-container .content section{
     width: 100%;
     max-width: 380px;
   }
   
-  .landing-container .content section p{
+  .scpf-container .content section p{
     font-size: 18px;
     color: #737380;
     line-height: 32px;
   }
 
-  .landing-container .content button{
+  .scpf-container .content button{
     margin-top: 8px;
     width: 80%;
     border-radius: 4px;
@@ -51,6 +51,18 @@ body{
     transition: 0.2s;
   }
   
-  .landing-container .content button:hover{
+  .scpf-container .content button:hover{
     background-color: #484ef6 ;
+  }
+
+  .scpf-container .content .back-link{
+    text-decoration: none;
+    color: #737380;
+    transition: 0.3s;
+  }
+  
+  .scpf-container .content .back-link:hover{
+    color: black;
+    text-decoration: underline #484ef6;
+    font-weight: bold;
   }

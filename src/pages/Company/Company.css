@@ -1,0 +1,89 @@
+body{
+    background-color: #484ef6;
+}
+
+.company-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 120vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.company-container h1{
+    font-size: 70px;
+}
+
+.company-container .content{
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+  }
+
+.company-container .content section{
+    width: 100%;
+    max-width: 380px;
+  }
+  
+  .company-container .content section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+  }
+
+  .company-container .content button{
+    margin-top: 8px;
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #9c9c9c;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  
+  .company-container .content button:hover{
+    background-color: #484ef6 ;
+  }
+
+  .company-container .content .back-link{
+    text-decoration: none;
+    color: #737380;
+    transition: 0.3s;
+  }
+  
+  .company-container .content .back-link:hover{
+    color: black;
+    text-decoration: underline #484ef6;
+    font-weight: bold;
+  }
+
+  .company-container .content form{
+    width: 100%;
+    max-width: 450px;
+    
+  }
+  
+  .company-container .content form input{
+    margin-top: 8px;
+    width: 75%;
+    border-radius: 4px;
+    border: 1px solid #9c9c9c;
+    padding: 20px;
+  }
+  
+  .company-container .content form textarea{
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid #9c9c9c;
+    padding: 20px;
+  }

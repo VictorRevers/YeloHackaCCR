@@ -20,6 +20,8 @@ export default function SchoolRegister(){
             </section>
             <form>
               <input placeholder="Nome da escola" />
+              <input placeholder="Cidade" />
+              <input placeholder="Estado" />
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Senha" />
         

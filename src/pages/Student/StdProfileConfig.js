@@ -28,6 +28,8 @@ export default function StdProfileConfig(){
                     <div className="info-area">
                         <form>
                             <h1>Informações do perfil:</h1>
+                            <label>Foto:</label><br/>
+                            <input type="file" /><hr />
                             <input type="text" placeholder="Area de interesse"  /><hr/>
                             <textarea placeholder="Fale um pouco sobre você :)" /><hr/>
                             <label>Boletim:</label><br/>

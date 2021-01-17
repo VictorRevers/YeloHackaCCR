@@ -20,9 +20,13 @@ export default function CompanyRegister(){
             </section>
             <form>
               <input placeholder="Nome da empresa" />
+              <input placeholder="Cidade" />
+              <input placeholder="Estado" />
               <input placeholder="CNPJ" />
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Senha" />
+              <label>Logo:</label>
+              <input type="file" />
         
               <button>Cadastrar!</button>
             </form>

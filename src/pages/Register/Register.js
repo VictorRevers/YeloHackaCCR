@@ -20,9 +20,9 @@ export default function Register(){
             </section>
             <form>
               <input placeholder="Nome" />
-             
               <input type="number" placeholder="Idade" id="age" />
-            
+              <input placeholder="Cidade" />
+              <input placeholder="Estado" />
               <input type="email" placeholder="Email" />
              
               <input type="password" placeholder="Senha" />

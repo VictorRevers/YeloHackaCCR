@@ -10,6 +10,10 @@ import StudentProfile from './pages/Student/StudentProfile';
 import StdProfileConfig from './pages/Student/StdProfileConfig';
 import Courses from './pages/Courses/Courses';
 import Jobs from './pages/Jobs/Jobs';
+import SchoolProfile from './pages/School/SchoolProfile';
+import CheckStudents from './pages/School/CheckStudents';
+import Company from './pages/Company/Company';
+import NewJob from './pages/Company/NewJob';
 
 export default function Routes(){
     return(
@@ -24,6 +28,12 @@ export default function Routes(){
                 <Route path="/stdprofconfig" component={ StdProfileConfig } />
                 <Route path="/courses" component={ Courses } />
                 <Route path="/jobs" component={ Jobs } />
+                <Route path="/scprofile" component={ SchoolProfile } />
+                <Route path="/chkstd" component={ CheckStudents } />
+                <Route path="/company" component={ Company } />
+                <Route path="/newjob" component={ NewJob } />
+                
+
             </Switch>
         </BrowserRouter>
     );
