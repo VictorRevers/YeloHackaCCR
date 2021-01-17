@@ -2,7 +2,7 @@
   "name": "yelo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "static/react",
+  "homepage": "/static/react",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@babel/plugin-transform-react-jsx": "^7.12.12",
