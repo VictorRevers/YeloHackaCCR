@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Yelo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicativo desenvolvido para solução do desafio do Hackathon CCR.
 
 ## Available Scripts
 
