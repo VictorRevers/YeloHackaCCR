@@ -25,6 +25,7 @@ Desenvolvedores:
 
 ### Perfil Jovem:
 ![PerfilStd1](https://user-images.githubusercontent.com/60626825/104864547-0ef5a980-5918-11eb-9ecb-1d7b25d65492.JPG)
+![PerfilStd2](https://user-images.githubusercontent.com/60626825/104864589-2af94b00-5918-11eb-8667-8b5ea14984c1.JPG)
 
 
 
