@@ -20,6 +20,9 @@ Desenvolvedores:
 ### Login:
 ![Login](https://user-images.githubusercontent.com/60626825/104864371-86770900-5917-11eb-9720-a080f846b127.JPG)
 
+### Perfil Escola:
+![escolapf](https://user-images.githubusercontent.com/60626825/104864478-da81ed80-5917-11eb-8f78-617b81d111ac.JPG)
+
 
 
 
