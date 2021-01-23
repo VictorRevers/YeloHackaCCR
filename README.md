@@ -4,7 +4,7 @@
 
 Desenvolvedores:
 -*Victor Revers Kasnowski*
--*João Pedro Noberto Da Silva*
+-*João Pedro Norberto Da Silva*
 -*Luiz Eduardo Alves Constancio*
 
 ## Tecnologias utilizadas:
